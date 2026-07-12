@@ -1,0 +1,10 @@
+/* Component-specific tweaks that don't fit neatly as Tailwind utility stacks go here. */
+.rail-line {
+  background: repeating-linear-gradient(
+    to bottom,
+    #14B8A6 0,
+    #14B8A6 6px,
+    transparent 6px,
+    transparent 12px
+  );
+}
