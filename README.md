@@ -2,7 +2,7 @@
 
 A centralized platform for logistics companies to manage the full lifecycle of transport operations — vehicle registration, driver management, trip dispatching, maintenance, and fuel/expense tracking — replacing spreadsheets and manual logbooks with real-time operational visibility.
 
-Built in 8 hours for [Hackathon Name].
+Built in 8 hours for [Odoo Hackathon 2026].
 
 ## Problem
 
@@ -56,42 +56,6 @@ All state transitions (dispatch, complete, cancel, maintenance open/close) are h
 - Creating a maintenance record sets the vehicle to In Shop
 - Closing maintenance restores the vehicle to Available (unless Retired)
 
-## Getting Started
-
-### Backend
-
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python seed_data.py        # optional: populate demo data
-uvicorn app.main:app --reload
-```
-
-API docs available at `http://localhost:8000/docs`
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-App available at `http://localhost:5173`
-
-## Environment Variables
-
-Create a `.env` file in `backend/`:
-
-```
-DATABASE_URL=sqlite:///./transitops.db
-JWT_SECRET_KEY=your-secret-key
-JWT_ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=60
-```
-
 ## Demo Walkthrough
 
 1. Register vehicle `Van-05` (max capacity 500 kg) — status: Available
@@ -108,9 +72,9 @@ Users, Roles, Vehicles, Drivers, Trips, Maintenance Logs, Fuel Logs, Expenses
 
 ## Team
 
-- [Your Name] — [Role]
+- SIVA SURYA P K
+- SUDHARSAN K
+- PRIYA S
 - ...
 
-## License
 
-MIT
